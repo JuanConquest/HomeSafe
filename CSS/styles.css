@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 55px;
+    color: white;
+    background-color: rgb(63, 136, 197);
+    border: none;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: rgb(48, 111, 160);
+}
+header img{
+    height: 140px;
+    margin: 0;
+    padding: 25px 30px;
+}
+header nav{
+    max-width: 1800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header li{
+    margin: 10px;
+}
+header a{
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+li a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 0, 100);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/*INICIO*/
+.inicio {
+    display: flex;
+    margin: 1px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    align-items: left;
+    flex-direction: column;
+    height: 90vh;
+    padding-left: 5%;
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/Inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner{
+    justify-content: center;
+}
+.banner h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.banner p {
+    padding: 20px 70px;
+    font-size: 22px;
+    font-weight: lighter;
+    color: white;
+}
+.banner button{
+    padding: 0 110px;
+}
+.banner button{
+    background-color: rgb(0, 0, 100);
+    height: 70px;
+    transition: background-color 0.3s ease;
+}
+.banner button:hover{
+    background-color: rgb(0, 0, 150);
+}
+
+
+
+/*SERVICIOS*/
+.servicios{
+    padding: 100px 0px;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 32px;
+    color: rgb(0, 0, 100);
+}
+.container{
+    padding: 150px, 12px;
+
+}
+.container h1{
+    margin-top: 0;
+}
+.container p{
+    display: none;
+}
+.boxS{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.boxS h3{
+    color: white;
+}
+.imgB img{
+    width: 50px;
+    height: 50px;
+}
+.boxS:first-child{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/SensorMovimiento.jpeg");
+}
+.boxS:nth-child(2){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/Personalizacion.jpg");
+}
+.boxS:nth-child(3){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/Camara.png");
+}
+.boxS:nth-child(4){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/MonitoreoEnTiempoReal.jpg");
+}
+.boxS:nth-child(5){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/Comunidad.jpg");
+}
+.boxS:nth-child(6){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/Asistente\ de\ voz.png");
+}
+
+
+/*Caracteristicas*/
+
+.containerC{
+    text-align: center;
+}
+.containerC p{
+    font-size: 24px;
+}
+.containerC h2{
+    font-size: 30px;
+}
+.imgC {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/IMG/InstalacióndeCamara.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+.boxC{
+    margin: 60px 15px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    align-items: center;
+}
+.boxC img{
+    width: 80px;
+    height: 80px;
+}
+.textoC{
+    padding-left: 40px;
+}
+.textoC p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.textoC h2{
+    font-size: 24px;
+}
+
+/*Precios*/
+
+.precios{
+    padding: 50px 0px;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 32px;
+    color: white;
+    background-color: rgb(0, 0, 100);
+}
+.precios h4{
+    font-size: 18px;
+}
+.precios h2{
+    margin-top: 0px;
+}
+.precios h1{
+    color: rgb(63, 136, 197);
+}
+.precios p{
+    font-size: 22px;
+}
+.containerP{
+    padding: 50px 0px;
+}
+.boxP{
+    padding: 40px 40px;
+}
+.carta{
+    background-color: rgb(28, 49, 150);
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.boxP button{
+    font-size: 32px;
+    margin: 20px;
+}
+.carta ul li{
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+.carta ul li p{
+    margin: 0px 10px;
+    text-align: left;
+}
+
+/*Equipo*/
+.equipo{
+    padding: 100px 0px;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 32px;
+    color: black;
+}
+.containerE{
+    padding: 50px 0px;
+}
+.boxE img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100px;
+    border: 5px solid rgb(0, 0, 100);
+}
+.boxE{
+    background-color: rgb(205, 205, 205);
+    padding: 20px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.redes img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(0, 0, 100);
+    height: 100px;
+    color: #fff;
+}
+.fotter{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+}
+.containerF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 880px){
+
+/*HEADER*/
+    header{
+        position: fixed;
+        height: 140px;
+        width: 100%;
+        background-color: white;
+    }
+    header nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav ul {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+/*Servicios*/   
+    .servicios{
+        padding: 50px 180px;
+    }
+    .containerS{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        justify-content: center;
+
+    }
+    .containerS p{
+        margin-top: 5px;
+        display: block;
+        color: black;
+        font-size: 20px;
+    }
+    .containerS h3{
+        display: block;
+        color: black;   
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    .boxS{
+        padding: 15px;
+        background-size: 100% 290px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+    }
+    .imgB{
+        padding: 0;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+    .imgB img{
+       width: 100px;
+       height: 100px;
+    }
+    .boxS:first-child {
+        background-image: url("/IMG/SensorMovimiento.jpeg");
+    }
+    .boxS:nth-child(2) {
+        background-image: url("/IMG/Personalizacion.jpg");
+    }
+    .boxS:nth-child(3) {
+        background-image: url("/IMG/Camara.png");
+    }
+    .boxS:nth-child(4) {
+        background-image: url("/IMG/MonitoreoEnTiempoReal.jpg");
+    }
+    .boxS:nth-child(5) {
+        background-image: url("/IMG/Comunidad.jpg");
+    }
+    .boxS:nth-child(6) {
+        background-image: url("/IMG/Asistente\ de\ voz.png");
+    }
+
+/*Caracteristicas*/
+
+    .containerC{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .imgC{
+        width: 50%;
+        height: 1000px;
+    }
+    .caractContainer{
+        width: 50%;
+        padding: 0px 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .boxC h2{
+        font-size: 36px;
+    }
+    .boxC p{
+        font-size: 28px;
+    }
+
+    /*Precios*/
+    .precios{
+        padding:  0px 250px;
+    }
+    .preContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        align-items: center;
+        justify-content: center;
+    }
+    .boxP{
+        width: 100%;
+    }
+    .carta{
+        height: 720px;
+    }
+    .carta p{
+        font-size: 20px;
+    }
+    .carta h3{
+        font-size: 40px;
+    }
+    .carta ul {
+        padding-top: 40px;
+    }
+/*Equipo*/
+    .equipo{
+        padding: 20px 80px
+    }
+    .contEquipo{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr); 
+    }
+    .boxE{
+        position: relative;
+        height: 700px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .boxE p{
+        font-size: 24px;   
+    }
+    .boxE h3{
+        padding-top: 20px;
+        font-size: 32px;   
+    }
+    .redes{
+        position: absolute;
+        bottom: 0;
+        right: 25%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .redes img{
+        height: 60px;
+        width: 60px;
+
+    }
+}
