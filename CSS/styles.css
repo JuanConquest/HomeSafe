@@ -160,7 +160,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/IMG/SensorMovimiento.jpeg");
+    ,url("../IMG/SensorMovimiento.jpeg");
 }
 .boxS:nth-child(2){
     background-image: linear-gradient(
@@ -168,7 +168,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/IMG/Personalizacion.jpg");
+    ,url("../IMG/Personalizacion.jpg");
 }
 .boxS:nth-child(3){
     background-image: linear-gradient(
@@ -176,7 +176,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/IMG/Camara.png");
+    ,url("../IMG/Camara.png");
 }
 .boxS:nth-child(4){
     background-image: linear-gradient(
@@ -184,7 +184,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/IMG/MonitoreoEnTiempoReal.jpg");
+    ,url("../IMG/MonitoreoEnTiempoReal.jpg");
 }
 .boxS:nth-child(5){
     background-image: linear-gradient(
@@ -192,7 +192,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/IMG/Comunidad.jpg");
+    ,url("../IMG/Comunidad.jpg");
 }
 .boxS:nth-child(6){
     background-image: linear-gradient(
@@ -200,7 +200,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/IMG/Asistente\ de\ voz.png");
+    ,url("../IMG/Asistente\ de\ voz.png");
 }
 
 
@@ -223,7 +223,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/IMG/InstalacióndeCamara.jpg");
+    ,url("../IMG/InstalacióndeCamara.jpg");
     background-size: cover;
     background-position: center; 
 }
@@ -412,22 +412,22 @@ footer p{
        height: 100px;
     }
     .boxS:first-child {
-        background-image: url("/IMG/SensorMovimiento.jpeg");
+        background-image: url("../IMG/SensorMovimiento.jpeg");
     }
     .boxS:nth-child(2) {
-        background-image: url("/IMG/Personalizacion.jpg");
+        background-image: url("../IMG/Personalizacion.jpg");
     }
     .boxS:nth-child(3) {
-        background-image: url("/IMG/Camara.png");
+        background-image: url("../IMG/Camara.png");
     }
     .boxS:nth-child(4) {
-        background-image: url("/IMG/MonitoreoEnTiempoReal.jpg");
+        background-image: url("../IMG/MonitoreoEnTiempoReal.jpg");
     }
     .boxS:nth-child(5) {
-        background-image: url("/IMG/Comunidad.jpg");
+        background-image: url("../IMG/Comunidad.jpg");
     }
     .boxS:nth-child(6) {
-        background-image: url("/IMG/Asistente\ de\ voz.png");
+        background-image: url("../IMG/Asistente\ de\ voz.png");
     }
 
 /*Caracteristicas*/
