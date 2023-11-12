@@ -89,7 +89,7 @@ li a:hover::after{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    , url("/IMG/Inicio.png");
+    , url("IMG/Inicio.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
