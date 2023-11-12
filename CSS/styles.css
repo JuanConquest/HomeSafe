@@ -321,7 +321,6 @@ li a:hover::after{
 }
 .boxE{
     background-color: rgb(205, 205, 205);
-    padding: 20px 20px;
     margin: 20px;
     border-radius: 20px;
     box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
@@ -504,10 +503,12 @@ footer p{
         padding-top: 20px;
         font-size: 32px;   
     }
-    .redes{
+  .redes{
+        display: flex;
         position: absolute;
         bottom: 0;
-        right: 25%;
+        margin: 0;
+        width: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
